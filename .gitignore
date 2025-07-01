@@ -1,0 +1,10 @@
+# Ignore IMDB raw dataset files
+datasets/*.tsv
+datasets/*.json
+# datasets/*.gz
+
+# Ignore environment files (security best practice)
+# *.env
+
+# Ignore node_modules 
+/node_modules/
