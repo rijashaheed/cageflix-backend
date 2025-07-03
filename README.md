@@ -6,8 +6,8 @@ Deployed backend URL:
 https://cageflix-backend-y4rr.onrender.com
 
 ⚙️ Setup Instructions
-Backend Setup (Local)
--Clone this repository using:
+-Backend Setup (Local)
+Clone this repository using:
 git clone https://github.com/rijashaheed/cageflix-backend.git
 
 -Navigate into the backend folder:
@@ -18,8 +18,8 @@ npm install
 
 -Create a .env file in the root directory with the following:
 
-PORT=<your preferred port>
-MONGO_URI=<your MongoDB connection string>
+PORT=<your-preferred-port>
+MONGO_URI=<your-mongoDB-connectionstring>
 
 -🗃️ MongoDB Collection Setup
 Import the provided movies_shows.json file to populate your database.
