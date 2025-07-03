@@ -15,6 +15,10 @@ mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
 
 const db = mongoose.connection;
 
+app.get('/', (req, res) => {
+  res.send('Cageflix Backend is Running!');
+});
+
 app.get('/movies', async (req, res) => {
   try {
     const movies = await db.collection('movies_shows').find().toArray();
