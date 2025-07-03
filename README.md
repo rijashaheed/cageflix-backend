@@ -18,8 +18,8 @@ npm install
 
 -Create a .env file in the root directory with the following:
 
-PORT=<your-preferred-port>
-MONGO_URI=<your-mongoDB-connectionstring>
+PORT:<your-preferred-port>
+MONGO_URI:<your-mongoDB-connectionstring>
 
 -🗃️ MongoDB Collection Setup
 Import the provided movies_shows.json file to populate your database.
