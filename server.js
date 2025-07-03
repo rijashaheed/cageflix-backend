@@ -17,8 +17,7 @@ const db = mongoose.connection;
 
 app.get('/movies', async (req, res) => {
   try {
-    const movies = await db.collection('cage_movies_shows').find().toArray();
-    // console.log("movies", movies)
+    const movies = await db.collection('movies_shows').find().toArray();
     res.json(movies);
   } catch (error) {
     res.status(500).json({ error: 'Server error' });
